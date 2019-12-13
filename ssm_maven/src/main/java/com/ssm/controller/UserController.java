@@ -51,7 +51,7 @@ public class UserController {
 			mv.addObject("message", "用户名或密码输入错误,请重新输入");
 			mv.setViewName("login");
 		}
-		System.out.println("1");
+		
 		return mv;
 
 	}
