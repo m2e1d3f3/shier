@@ -52,6 +52,7 @@ public class UserController {
 			mv.setViewName("login");
 		}
 		System.out.println("2");
+		System.out.println("hf");
 		return mv;
 
 	}
